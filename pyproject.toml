@@ -1,0 +1,18 @@
+[project]
+name = "mqtt-python"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Jo",email = "jo@thevoid.cafe"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pyserial (>=3.5,<4.0)",
+    "paho-mqtt (>=2.1.0,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
